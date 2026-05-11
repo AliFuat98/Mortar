@@ -1,0 +1,53 @@
+# Unreal Engine 5.3 Default Gitignore
+
+# Binaries and build outputs
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Project-specific folders
+!Config/Default*.ini
+!Source/
+!Content/
+!Resources/
+
+# Visual Studio / IDE files
+.vs/
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.DotSettings.user
+
+# Mac specific
+.DS_Store
+*.app
+
+# Crash reports and logs
+Saved/Logs/
+Saved/Crashes/
+
+# Plugins - Ignore built binaries but keep source
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Python and scripting
+__pycache__/
+*.pyc
+
+# Local/User settings
+Config/User*.ini
+Restored/
